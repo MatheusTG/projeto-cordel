@@ -1,0 +1,91 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header {
+    background-color: black;
+    height: 100%;
+    padding: 60px;
+}
+
+header h1 {
+    color: white;
+    font-size: max(50px, 8vw);
+    text-align: center;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--fonte1);
+}
+
+main p {
+    font-size: max(15px, 3.3vw) ;
+    line-height: 200%;
+    margin-left: 5px;
+    font-family: var(--fonte3);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fundo01 {
+    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+#fundo02 {
+    background: url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+.com-fundo {
+    color: white;
+    padding: 10vh 0px 10vh 30px;
+    box-shadow: 3px 3px 10px 3px inset rgba(0, 0, 0, 0.300) ;
+}
+
+.sem-fundo {
+    background-color: white;
+    padding: 10vh 0px 10vh 30px;
+}
+
+.meia-linha {
+    width: 70%;
+}
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.500);
+    width: max(100px, 42vw);
+    height: 100%;
+}
